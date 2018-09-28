@@ -1,0 +1,324 @@
+/*S Global*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+hr {
+  opacity: .8;
+  margin: 7px 0 10px; }
+
+h1 {
+  color: #9e9e9e; }
+
+p {
+  line-height: 32px;
+  font-size: 15.8px;
+  color: #777; }
+
+.clear {
+  clear: both; }
+
+.about, .ex, .skills, .workex, .ed, .interests, .port, .contact, .get {
+  padding: 55px 45px; }
+
+span {
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+/*E Global*/
+.page, .photo {
+  width: 50%; }
+
+.page {
+  float: right;
+  position: relative;
+  overflow: hidden; }
+
+/*S Photo*/
+.photo {
+  position: fixed;
+  background-image: url(self.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  top: 0;
+  left: 0; }
+  .photo .title {
+    position: absolute;
+    bottom: -39px;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .photo .title h1 {
+      color: #fff;
+      font-size: 1.92rem;
+      margin: -0.33em 0; }
+    .photo .title p {
+      color: #fff;
+      margin-top: 20px;
+      font-weight: bold;
+      line-height: 20px; }
+    .photo .title ul {
+      text-align: center;
+      margin-top: 20px;
+      list-style: none; }
+      .photo .title ul li {
+        display: inline-block;
+        margin: 0 10px 0 10px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        padding: 15px;
+        -webkit-transition: all .8s ease-in-out;
+        -o-transition: all .8s ease-in-out;
+        transition: all .8s ease-in-out; }
+        .photo .title ul li a {
+          color: #fff; }
+          .photo .title ul li a i {
+            color: #fff;
+            font-size: 20px;
+            -webkit-transition: all .8s ease-in-out;
+            -o-transition: all .8s ease-in-out;
+            transition: all .8s ease-in-out; }
+        .photo .title ul li:hover {
+          background-color: aliceblue; }
+        .photo .title ul li:hover i {
+          color: #000; }
+
+/*E Photo*/
+/*S About*/
+.about h1 {
+  color: #04dede; }
+
+/*E About*/
+/*S Ex*/
+.ex .ex1, .ex .ex2, .ex .ex3, .ex .ex4 {
+  width: 50%;
+  float: left;
+  padding: 8px; }
+
+.ex .ex1 h5, .ex .ex2 h5, .ex .ex3 h5, .ex .ex4 h5 {
+  margin: 10px 0 13px 0; }
+
+.ex .ex1 p, .ex .ex2 p, .ex .ex3 p, .ex .ex4 p {
+  font-size: 17px; }
+
+.ex {
+  background-color: #fafafa; }
+  .ex h1 {
+    color: #9e9e9e; }
+
+/*E Ex*/
+/*S Skills*/
+.skills h1 {
+  color: #04dede; }
+.skills label {
+  display: block;
+  margin: 30px 0 7px; }
+  .skills label span {
+    color: #777;
+    display: inline; }
+.skills span {
+  width: 100%;
+  display: block;
+  height: 3.5px;
+  border-radius: 10px; }
+
+/*E Skills*/
+/*S Workes & ed*/
+.workex, .ed {
+  background-color: #fafafa;
+  line-height: 36px; }
+
+.ed {
+  background: none; }
+  .ed h1 {
+    color: #04dede; }
+
+/*E Workes & ed*/
+/*S Interests*/
+.interests {
+  background-color: #fafafa; }
+  .interests h3 {
+    margin: 8px 0 10px; }
+
+/*E Interests*/
+/*S Port*/
+.port h1 {
+  color: #04dede; }
+.port ul {
+  list-style: none; }
+  .port ul li {
+    width: 49%;
+    height: 185px;
+    display: inline-block;
+    padding: 10px; }
+    .port ul li img {
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all .3999s ease-in-out;
+      -o-transition: all .3999s ease-in-out;
+      transition: all .3999s ease-in-out;}
+      .port ul li img:hover {
+        transform: scale(1.1);
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 20px 4.3px #ccc;
+        box-shadow: 0 0 20px 4.3px #ccc;
+        outline: none; }
+
+/*E Port*/
+/*S Contant*/
+.contact {
+  background-color: #fafafa; }
+  .contact p {
+    line-height: 20px; }
+
+/*E Contant*/
+/*S Get*/
+.get h1 {
+  color: #04dede; }
+.get label {
+  display: block;
+  margin: 35px 0 10px 57px; }
+.get i {
+  font-size: 25px; }
+.get input, .get textarea {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  width: 90%;
+  float: right; }
+  .get input:focus, .get textarea:focus {
+    border-bottom: 2px solid #000; }
+.get textarea {
+  resize: none;
+  min-height: 180px; }
+.get button {
+  width: 87px;
+  height: 40px;
+  background: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+  float: right;
+  line-height: 2.8em;
+  border: 2px solid #04dede;
+  cursor: pointer;
+  position: relative; 
+    z-index: 1;
+    
+    
+}
+
+.get button::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #04dede;
+    z-index: -1;
+    transition: all .2s ease;
+}
+
+.get button:hover::before{
+    width: 100%;
+}
+.get span {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: #04dede;
+  position: absolute;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  visibility: hidden; }
+:-moz-placeholder {
+  color: darkgray;
+  font-size: 11.4px; }
+
+:-ms-input-placeholder {
+  color: darkgray;
+  font-size: 11.4px; }
+
+::-webkit-input-placeholder {
+  color: darkgray;
+  font-size: 11.4px; }
+
+/*E Get*/
+/*S Fixed Span*/
+.fix {
+  background-color: #04dede;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  line-height: 58px;
+  text-align: center; }
+  .fix i {
+    font-size: 26px;
+    color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
+  .fix:hover i {
+    color: #000; }
+
+/*E Fixed Span*/
+@media (max-width: 767px) {
+  .photo {
+    position: relative;
+    width: 100%;
+    background-size: cover; }
+    .photo .title {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      .photo .title h1 {
+        font-size: 25px; }
+      .photo .title p {
+        font-size: 14px; }
+      .photo .title li {
+        width: 20px;
+        height: 20px;
+        position: relative; }
+      .photo .title i {
+        position: absolute;
+        top: 5px;
+        right: 5px; }
+
+  .page {
+    width: 100%;
+    float: none; }
+
+  .get form textarea {
+    max-width: none; }
+
+  .port ul li {
+    display: block;
+    width: 100%;
+    height: auto; }
+
+/*# sourceMappingURL=style.css.map */
