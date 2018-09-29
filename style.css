@@ -171,7 +171,9 @@ a {
       -o-transition: all .3999s ease-in-out;
       transition: all .3999s ease-in-out;}
       .port ul li img:hover {
-        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
         background-color: #fff;
         -webkit-box-shadow: 0 0 20px 4.3px #ccc;
         box-shadow: 0 0 20px 4.3px #ccc;
@@ -233,6 +235,8 @@ a {
     height: 100%;
     background-color: #04dede;
     z-index: -1;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
     transition: all .2s ease;
 }
 
@@ -320,5 +324,4 @@ a {
     display: block;
     width: 100%;
     height: auto; }
-
-/*# sourceMappingURL=style.css.map */
+}
